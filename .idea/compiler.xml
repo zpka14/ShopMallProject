@@ -10,7 +10,7 @@
         <module name="shop" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="shop" target="11" />
     </bytecodeTargetLevel>
   </component>
