@@ -3,9 +3,10 @@
 ShoppingMall Project With SpringBoot, JPA
 
 개발 환경
-SpringBoot Version : 2.7.6
 
-MySQL : 8.0.31
+- SpringBoot Version : 2.7.6
+
+- MySQL : 8.0.31
 
 
 
