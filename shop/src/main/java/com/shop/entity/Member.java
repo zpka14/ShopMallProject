@@ -11,7 +11,8 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="member")
-@Getter @Setter
+@Getter
+@Setter
 @ToString
 public class Member {
 
