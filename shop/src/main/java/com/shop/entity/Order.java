@@ -28,7 +28,7 @@ public class Order{
     @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus; //주문상태
 
-    @OneToMany(mappedBy = "order")
+    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<OrderItem> orderItems = new ArrayList<>();
 
     private LocalDateTime regTime;
