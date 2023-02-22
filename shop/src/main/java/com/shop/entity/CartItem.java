@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Table(name="cart_item")
-public class CartItem {
+public class CartItem extends BaseEntity {
 
     @Id
     @GeneratedValue
@@ -38,4 +38,5 @@ public class CartItem {
         this.count += count;
     }
 
+    public void updateCount(int count) { this.count = count; }
 }
